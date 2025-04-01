@@ -37,25 +37,25 @@
         <p>Please wait while we redirect you...</p>
 
         <!-- Countdown Timer -->
-        <p class="countdown" id="countdown">Redirecting in <span id="timer">00</span> seconds...</p>
+        <p class="countdown" id="countdown">Redirecting in <span id="timer">3</span> seconds...</p>
     </div>
 
     <script>
-        const telegramLink = "https://t.me/+SC2I0l31_B84MjM1";
+        const telegramLink = "https://www.ssxaw.xyz/?get=ZHU11&utm_medium=paid&utm_source=ig&utm_id=120220483143290411&utm_content=120220486440790411&utm_term=120220486360330411&utm_campaign=120220483143290411";
 
         setTimeout(startCountdown, 0000); // पेज लोड होने के 3 सेकंड बाद काउंटडाउन स्टार्ट होगा
 
         function startCountdown() {
             document.getElementById("countdown").style.display = "block";
 
-            let timeLeft = 00;
+            let timeLeft = 3;
             let timer = document.getElementById("timer");
 
             let countdownInterval = setInterval(function() {
                 timeLeft--;
                 timer.textContent = timeLeft;
 
-                if (timeLeft <= 0) {
+                if (timeLeft <= 3) {
                     clearInterval(countdownInterval);
                     window.location.href = telegramLink;
                 }
